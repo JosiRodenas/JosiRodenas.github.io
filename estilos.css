@@ -351,40 +351,7 @@ body {
     border: 0;
 }
 
-/* ---  hitos destcados --- */
-.mini-lista-proyectos {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
 
-.mini-lista-proyectos .item-proyecto {
-    background-color: var(--bg-subtle);
-    border: 1px solid var(--border-subtle);
-    border-radius: 20px;
-    padding: 20px;
-    transition: all 0.3s ease;
-}
-
-.mini-lista-proyectos .item-proyecto:hover {
-    transform: translateY(-3px);
-    border-color: var(--accent);
-    box-shadow: 0 8px 24px var(--shadow-color);
-}
-
-.item-proyecto h3, .item-proyecto h4 {
-    margin: 0 0 10px 0;
-    font-size: 1.1em;
-    font-weight: 700;
-    color: var(--text-primary);
-}
-
-.item-proyecto p {
-    margin: 0;
-    font-size: 0.9em;
-    line-height: 1.6;
-    color: var(--text-secondary);
-}
 
 .tag-tech {
     display: inline-block;
